@@ -143,10 +143,13 @@ nav .btn:hover {
 }
 
 .btn-secondary {
-    display: inline-flex;
-    justify-content: center;
+    display: flex;
+
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
     padding: 12px 16px;
-    gap: 2px;
+    gap: 8px;
     background-color: transparent;
     color: #ffffff;
     border: 2px solid #ffffff;
@@ -157,9 +160,17 @@ nav .btn:hover {
 }
 
 .btn-secondary:hover {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #30b868;
+    color: #ffffff;
+    border: none;
     cursor: pointer;
+}
+
+.btn-secondary span img {
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+    color: #ffffff;
 }
 
 /* Feature Section */
@@ -176,32 +187,41 @@ nav .btn:hover {
     text-align: center;
     max-width: 800px;
 }
+
 .feature-content h1 {
     font-size: 48px;
     font-weight: 700;
     color: #001931;
 }
+
 .feature-content p {
     font-size: 16px;
     font-weight: 400;
     color: #627382;
     line-height: 1.5;
     margin-top: 16px;
+    margin-bottom: 50px;
 }
 
 .feature-item {
+    height: 141px;
+    width: 1360px;
+    margin: auto;
+    padding-top: -20px;
     display: inline-flex;
     align-items: center;
     text-align: center;
-
     gap: 32px;
 
 }
 
 .item {
+    height: 300px;
+    width: 322px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     box-shadow: 0px 0px 8px 0px #0000000F;
     padding: 24px;
     border-radius: 8px;
@@ -250,7 +270,7 @@ nav .btn:hover {
     width: 100%;
     height: 600px;
     padding: 80px 120px;
-    margin: 40px 0;
+    margin: 80px 0;
     gap: 60px;
 }
 
@@ -271,17 +291,20 @@ nav .btn:hover {
 .how-it-works-content {
     flex: 1;
 }
+
 .how-it-works-content h2 {
     font-size: 48px;
     font-weight: 700;
     color: #001931;
-} 
+}
+
 .how-it-works-content h3 {
     font-size: 16px;
     font-weight: 50;
     color: #30b868;
     margin-bottom: 16px;
-}  
+}
+
 .how-it-works-content p {
     font-size: 16px;
     font-weight: 400;
@@ -300,9 +323,10 @@ nav .btn:hover {
     line-height: 1.5;
     gap: 8px;
 }
+
 /*  why-its-different */
 .why-its-different {
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -310,31 +334,37 @@ nav .btn:hover {
     gap: 32px;
     border-radius: 12px;
     margin: 0 120px;
+    margin-bottom: 80px;
     background-color: #F7F6F2;
-;
+    ;
 }
+
 .why-its-different h1 {
     font-size: 40px;
     font-weight: 700;
     color: #001931;
 }
+
 .why-its-different p {
     font-size: 16px;
     font-weight: 400;
     color: #627382;
-    
+
     text-align: center;
 }
+
 .why-its-different .btn {
-   display: inline-flex;
+    display: inline-flex;
     gap: 8px;
     box-shadow: 0px 10px 20px 0px #00000026;
 
 }
+
 .why-its-different .btn:hover {
     background-color: #30b868;
     cursor: pointer;
 }
+
 /* footer */
 footer {
     height: 348px;
@@ -344,48 +374,55 @@ footer {
     border: 1px;
     background-color: #001931;
 }
+
 .footer-content {
-    
+
     color: #ffffff;
     padding: 40px 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .footer-logo img {
     width: 71px;
-    height: 51px;
+    height: 36px;
     top: 5px;
     left: 63px;
 }
+
 .footer-content h3 {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 16px;
     text-align: center;
 }
+
 .footer-content .sosial-links {
     list-style: none;
     display: flex;
     gap: 10px;
 }
+
 .footer-content .sosial-links li a img {
     width: 20px;
     height: 20px;
     color: #ffffff;
     border-radius: 50%;
 }
+
 hr {
     width: 1360px;
     margin: auto;
     border: 1px solid #627382;
     margin-top: 20px;
 }
+
 footer p {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
     color: #ffffff;
-    margin-top: 16px;
+    margin-top: 25px;
     margin-bottom: 20px;
 }
