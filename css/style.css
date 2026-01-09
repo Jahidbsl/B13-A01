@@ -242,7 +242,8 @@ nav .btn:hover {
     font-size: 16px;
     font-weight: 400;
     color: #627382;
-    ;
+    line-height: 1.2;
+    margin-top: 3px;
 }
 
 .feature-img {
