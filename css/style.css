@@ -235,6 +235,7 @@ nav .btn:hover {
     font-size: 24px;
     font-weight: 600;
     color: #001931;
+    margin-bottom: 10px;
 }
 
 .item p {
